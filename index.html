@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" async></script>
+    <title>PLMT</title>
+    <link rel="shortcut icon" href="images/logo.jpg">
+</head>
+
+<body>
+    <div id="logo-blue-line"></div>
+    <div id="logo-text">PLMT</div>
+    <div id="logo-green-line"></div>
+    <p class="coming-soon-text">COMING SOON
+        <br>
+        <div id="emailConfig">
+            <script>
+                var parts = ["phongtran1997", "gmail", "com", "&#46;", "&#64;"];
+                var email = parts[0] + parts[4] + parts[1] + parts[3] + parts[2];
+                document.getElementById("emailConfig").innerHTML = `<a href="mailto:${email}" style="text-decoration: none;
+    color: #2d499a;" target="_top"><i class="fa fa-envelope" aria-hidden="true"></i>${email}</a>`; 
+            </script>
+        </div>
+        <br>
+        <div id="phoneConfig">
+            <script>
+                var parts = ["+1 ", "714", " 657", " 8588", "(", ")"];
+                var phone = parts[0] + parts[4] + parts[1] + parts[5] + parts[2] + parts[3];
+                document.getElementById("phoneConfig").innerHTML = `<a href="tel::${phone}" style="text-decoration: none;
+    color: #2d499a;" target="_top"><i class="fas fa-phone" aria-hidden="true"></i>${phone}</a>`; 
+            </script>
+        </div>
+    </p>
+    <footer id="footer">© 2019 PhongLukeTran. All rights reserved.</footer>
+</body>
+
+</html>
